@@ -1,12 +1,13 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import WeatherForecastQuery from './components/WeatherForecastQuery.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <h1>Outsider</h1>
-  <h1>Weather Forecast!</h1>
-  <h1>body</h1>
+  <div id="app">
+    <h1>Weather Forecast!</h1>
+    <WeatherForecastQuery></WeatherForecastQuery>
+  </div>
 </template>
 
 <style scoped>
